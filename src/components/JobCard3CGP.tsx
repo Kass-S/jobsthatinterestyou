@@ -1,19 +1,19 @@
 import React from 'react'
 
-const JobCard2DataVisor = () => {
+const JobCard3CGP = () => {
   return (
     <div className='w-[70rem] h-[40rem] rounded-2xl text-black p-4'>
 
       <div className='bg-gray-200 rounded-md p-4 text-center'>
-        <h1 className='text-3xl'>Datavisor</h1>
-        <p>Junior Front End Software Engineer</p>   
+        <h1 className='text-3xl'>Central Garden and Pets</h1>
+        <p>Junior Sofware Developer</p>   
       </div>
 
       <div className='mt-4 grid grid-cols-1 lg:grid-cols-4 gap-4 lg:gap-6'>
 
         <div className='my-4 bg-gray-200 rounded-md p-4 h-[20rem] lg:h-[25rem]'>
           <p className='font-bold pb-4'>Dive into why you want to work there (culture, benefits, hybrid, location)</p>
-          <p>The reason I want to work at Datavisor in this position is I could work on both my backend and frontedn skills. The fack that it is remote and has health insurance helps too.</p>
+          <p>I want to work at Central Garden and Pets to grow as a developer, and at least be semi secure (money and benefit wise) so I can.</p>
         </div>
         
         <div className='my-4 bg-gray-200 rounded-md p-4 h-[20rem] lg:h-[25rem]'>
@@ -23,12 +23,12 @@ const JobCard2DataVisor = () => {
         
         <div className='my-4 bg-gray-200 rounded-md p-4 h-[20rem] lg:h-[25rem]'>
           <p className='font-bold pb-4'>What goals would you like to achieve in the hypothetical position?</p>
-          <p>My goals here would to gain experience and to continue to grow my knowedge of coding.</p>
+          <p>My goals here are growth. Growing as a developer and to start building a future.</p>
         </div>
 
         <div className='my-4 bg-gray-200 rounded-md p-4  h-[20rem] lg:h-[25rem]'>
           <p className='font-bold pb-4'>Do you currently have the skillsets for the job?</p>
-          <p>I do not currently have all the skills for this Job.</p>
+          <p>The only required qualifications I do not meet are, having a degree or professional experience.</p>
         </div>
 
       </div>
@@ -37,4 +37,4 @@ const JobCard2DataVisor = () => {
   )
 }
 
-export default JobCard2DataVisor
+export default JobCard3CGP

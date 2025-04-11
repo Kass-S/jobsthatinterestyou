@@ -1,5 +1,6 @@
 import JobCard1CSPL from "@/components/JobCard1CSPL";
 import JobCard2DataVisor from "@/components/JobCard2DataVisor";
+import JobCard3CGP from "@/components/JobCard3CGP";
 
 
 export default function Home() {
@@ -7,7 +8,7 @@ export default function Home() {
     <div className="max-h-screen max-w-screen">
 
       <div className="flex justify-center mt-10">
-        <JobCard2DataVisor />
+        <JobCard3CGP />
       </div>      
 
       
